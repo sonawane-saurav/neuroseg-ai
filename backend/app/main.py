@@ -45,8 +45,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        origin.strip()
-        for origin in os.getenv("FRONTEND_ORIGIN", "*").split(",")
+        "https://neuroseg-ai-f97p-steel.vercel.app"
     ],
     allow_credentials=False,
     allow_methods=["*"],
