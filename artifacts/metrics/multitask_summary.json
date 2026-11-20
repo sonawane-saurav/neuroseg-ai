@@ -1,0 +1,11 @@
+{
+  "best_epoch": 5,
+  "best_val_dice": 1.8348122856503455e-10,
+  "best_val_iou": 1.8348122856503455e-10,
+  "best_val_cls_acc": 0.875,
+  "total_training_time_seconds": 765.0038983821869,
+  "parameter_count": {
+    "total_parameters": 7828901,
+    "trainable_parameters": 7828901
+  }
+}

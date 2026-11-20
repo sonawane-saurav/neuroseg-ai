@@ -1,0 +1,61 @@
+{
+  "evaluation_cohort_size": 40,
+  "baseline_unet": {
+    "mean_dice": 0.07021279956469265,
+    "std_dice": 0.08138787718777167,
+    "mean_iou": 0.038350075266962894,
+    "mean_precision": 0.053333453378955856,
+    "mean_recall": 0.20649113193997382,
+    "mean_accuracy": 0.9160213470445007,
+    "mean_inference_time_ms": 570.8900928497314,
+    "parameter_count": {
+      "total_parameters": 7762465,
+      "trainable_parameters": 7762465
+    }
+  },
+  "multitask_unet": {
+    "mean_dice": 0.0014765374486640716,
+    "std_dice": 0.009220971932626285,
+    "mean_iou": 0.0007607338709106433,
+    "mean_precision": 0.912762238901748,
+    "mean_recall": 0.0007835983430319063,
+    "mean_accuracy": 0.9847896575912707,
+    "mean_inference_time_ms": 333.2665145397186,
+    "parameter_count": {
+      "total_parameters": 7828901,
+      "trainable_parameters": 7828901
+    },
+    "classification": {
+      "accuracy": 0.799999998,
+      "macro_precision": 0.8307017562740843,
+      "macro_recall": 0.8184086154196674,
+      "macro_f1": 0.8212568203228409,
+      "confusion_matrix": [
+        [
+          13,
+          2,
+          2,
+          0
+        ],
+        [
+          1,
+          4,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          15,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "num_test_samples": 20,
+  "baseline_clean": {
+    "mean_dice": 0.07362445965092805,
+    "mean_iou": 0.0407275933792541,
+    "mean_precision": 0.05335971021452981,
+    "mean_recall": 0.23450375854554445
+  },
+  "conditions": {
+    "gaussian_noise": {
+      "1": {
+        "mean_dice": 0.07403833803814912,
+        "mean_iou": 0.04102041677209543,
+        "mean_precision": 0.0537866710272767,
+        "mean_recall": 0.23457205702770115,
+        "absolute_dice_drop": -0.0004138783872210672,
+        "relative_dice_drop_pct": -0.5621471818417186
+      },
+      "2": {
+        "mean_dice": 0.07485386440298854,
+        "mean_iou": 0.0415059146915728,
+        "mean_precision": 0.05363002587983564,
+        "mean_recall": 0.24424452058046758,
+        "absolute_dice_drop": -0.0012294047520604867,
+        "relative_dice_drop_pct": -1.669829684400686
+      },
+      "3": {
+        "mean_dice": 0.07678144505311735,
+        "mean_iou": 0.04235834610934513,
+        "mean_precision": 0.053761641986827244,
+        "mean_recall": 0.2774641984736847,
+        "absolute_dice_drop": -0.003156985402189297,
+        "relative_dice_drop_pct": -4.287951489499337
+      },
+      "4": {
+        "mean_dice": 0.07803810328413595,
+        "mean_iou": 0.04275659319607119,
+        "mean_precision": 0.0519361224830896,
+        "mean_recall": 0.324648560762537,
+        "absolute_dice_drop": -0.004413643633207898,
+        "relative_dice_drop_pct": -5.994798005086965
+      },
+      "5": {
+        "mean_dice": 0.04972576805680183,
+        "mean_iou": 0.026197821702477624,
+        "mean_precision": 0.028351334412284445,
+        "mean_recall": 0.37379563899517676,
+        "absolute_dice_drop": 0.02389869159412622,
+        "relative_dice_drop_pct": 32.460216682362145
+      }
+    },
+    "low_contrast": {
+      "1": {
+        "mean_dice": 0.07361088392746201,
+        "mean_iou": 0.0407601057436316,
+        "mean_precision": 0.05352409700472728,
+        "mean_recall": 0.2323967134393584,
+        "absolute_dice_drop": 1.3575723466038858e-05,
+        "relative_dice_drop_pct": 0.01843912348054055
+      },
+      "2": {
+        "mean_dice": 0.07364076801503405,
+        "mean_iou": 0.0407468781354038,
+        "mean_precision": 0.05340129084093359,
+        "mean_recall": 0.23430330209702524,
+        "absolute_dice_drop": -1.6308364106001894e-05,
+        "relative_dice_drop_pct": -0.02215071191369268
+      },
+      "3": {
+        "mean_dice": 0.07351360644048768,
+        "mean_iou": 0.04071464892342143,
+        "mean_precision": 0.05354413851551516,
+        "mean_recall": 0.23096710879873372,
+        "absolute_dice_drop": 0.00011085321044036756,
+        "relative_dice_drop_pct": 0.15056553270532222
+      },
+      "4": {
+        "mean_dice": 0.07356793796729068,
+        "mean_iou": 0.04076194133900578,
+        "mean_precision": 0.053679124753330566,
+        "mean_recall": 0.22978050381772222,
+        "absolute_dice_drop": 5.6521683637372755e-05,
+        "relative_dice_drop_pct": 0.07677014831104703
+      },
+      "5": {
+        "mean_dice": 0.07377130977259409,
+        "mean_iou": 0.04081894428985711,
+        "mean_precision": 0.053436858853377664,
+        "mean_recall": 0.23518907874079628,
+        "absolute_dice_drop": -0.00014685012166604228,
+        "relative_dice_drop_pct": -0.19945806448594658
+      }
+    },
+    "motion_blur": {
+      "1": {
+        "mean_dice": 0.07606767868775406,
+        "mean_iou": 0.04210754320732713,
+        "mean_precision": 0.0546661672802206,
+        "mean_recall": 0.24697203486439082,
+        "absolute_dice_drop": -0.002443219036826011,
+        "relative_dice_drop_pct": -3.3184837347889165
+      },
+      "2": {
+        "mean_dice": 0.07993939882898551,
+        "mean_iou": 0.04436907762177886,
+        "mean_precision": 0.056704001533902815,
+        "mean_recall": 0.2625300573109898,
+        "absolute_dice_drop": -0.006314939178057463,
+        "relative_dice_drop_pct": -8.577218265206781
+      },
+      "3": {
+        "mean_dice": 0.08385193694538587,
+        "mean_iou": 0.04663051452753879,
+        "mean_precision": 0.05859248094883004,
+        "mean_recall": 0.2853183478779147,
+        "absolute_dice_drop": -0.010227477294457818,
+        "relative_dice_drop_pct": -13.891393500957799
+      },
+      "4": {
+        "mean_dice": 0.08645231573291769,
+        "mean_iou": 0.04827693369064587,
+        "mean_precision": 0.06002034842932038,
+        "mean_recall": 0.30248568549244986,
+        "absolute_dice_drop": -0.012827856081989636,
+        "relative_dice_drop_pct": -17.423338275718894
+      },
+      "5": {
+        "mean_dice": 0.08416644576802533,
+        "mean_iou": 0.04678022516210868,
+        "mean_precision": 0.056740697326406964,
+        "mean_recall": 0.3142499143172918,
+        "absolute_dice_drop": -0.01054198611709728,
+        "relative_dice_drop_pct": -14.318572725024639
+      }
+    },
+    "resolution_degradation": {
+      "1": {
+        "mean_dice": 0.07479175616302612,
+        "mean_iou": 0.04139739856063857,
+        "mean_precision": 0.05408657278112242,
+        "mean_recall": 0.23917979232123154,
+        "absolute_dice_drop": -0.0011672965120980705,
+        "relative_dice_drop_pct": -1.5854716383126868
+      },
+      "2": {
+        "mean_dice": 0.07477351803857382,
+        "mean_iou": 0.04139165573213481,
+        "mean_precision": 0.054066154805269606,
+        "mean_recall": 0.2388877473599648,
+        "absolute_dice_drop": -0.001149058387645771,
+        "relative_dice_drop_pct": -1.5606998440380988
+      },
+      "3": {
+        "mean_dice": 0.0780257898761194,
+        "mean_iou": 0.04326189454946068,
+        "mean_precision": 0.05594851786392312,
+        "mean_recall": 0.24852005986801787,
+        "absolute_dice_drop": -0.004401330225191347,
+        "relative_dice_drop_pct": -5.97807341199611
+      },
+      "4": {
+        "mean_dice": 0.0820373834841952,
+        "mean_iou": 0.0458145650732573,
+        "mean_precision": 0.05888658707033133,
+        "mean_recall": 0.2477324813579062,
+        "absolute_dice_drop": -0.008412923833267152,
+        "relative_dice_drop_pct": -11.426790018378203
+      },
+      "5": {
+        "mean_dice": 0.08476804404260241,
+        "mean_iou": 0.04752177206439978,
+        "mean_precision": 0.0608270829011386,
+        "mean_recall": 0.2538742212672457,
+        "absolute_dice_drop": -0.011143584391674358,
+        "relative_dice_drop_pct": -15.135689020768073
+      }
+    }
+  }
+}
